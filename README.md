@@ -7,3 +7,6 @@ Another way to create a container:
 
 We can optimize docker images by chaining commands:
 `RUN apt-get update -y && \ apt-get install -y curl postgresql postgresql-client`
+
+Small Python image
+`docker pull gcr.io/distroless/python3`
